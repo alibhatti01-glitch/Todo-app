@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #f5f7fa;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h5 {
+    color: #777;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.input-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#day-input,
+#task-title,
+#task-desc {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.input-sec button {
+    padding: 10px 16px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: 600;
+}
+
+.input-sec button:hover {
+    background: #45a049;
+}
+
+#clr-btn {
+    background-color: #f44336;
+}
+
+#clr-btn:hover {
+    background-color: #e53935;
+}
+
+ul#todo-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+ul#todo-list li {
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+ul#todo-list li h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #4caf50;
+}
+
+ul#todo-list li strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+ul#todo-list li p {
+    font-size: 14px;
+    color: #555;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+ul#todo-list li button {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 6px;
+}
+
+ul#todo-list li button:hover {
+    background-color: #e53935;
+}
